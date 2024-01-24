@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "MailDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MailDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MailDomain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MailDomain/1.0.0": {
+      "type": "project",
+      "path": "../MailDomain/MailDomain.csproj",
+      "msbuildProject": "../MailDomain/MailDomain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "MailDomain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\208377\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailDomain\\MailDomain.csproj": {
+              "projectPath": "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailDomain\\MailDomain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

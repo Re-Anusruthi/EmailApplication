@@ -98,6 +98,19 @@
         "runtime": {
           "bin/placeholder/MailDomain.dll": {}
         }
+      },
+      "MailService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MailDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MailService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MailService.dll": {}
+        }
       }
     }
   },
@@ -231,11 +244,17 @@
       "type": "project",
       "path": "../MailDomain/MailDomain.csproj",
       "msbuildProject": "../MailDomain/MailDomain.csproj"
+    },
+    "MailService/1.0.0": {
+      "type": "project",
+      "path": "../MailService/MailService.csproj",
+      "msbuildProject": "../MailService/MailService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "MailDomain >= 1.0.0",
+      "MailService >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "Swashbuckle.AspNetCore.Swagger >= 6.2.3"
     ]
@@ -269,6 +288,9 @@
           "projectReferences": {
             "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailDomain\\MailDomain.csproj": {
               "projectPath": "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailDomain\\MailDomain.csproj"
+            },
+            "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailService\\MailService.csproj": {
+              "projectPath": "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailService\\MailService.csproj"
             }
           }
         }
