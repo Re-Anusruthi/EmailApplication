@@ -31,7 +31,6 @@ namespace EmailApplication
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Email")); ; ;
             }
             app.UseCors();
-            app.UseHttpsRedirection();
 
             app.UseAuthorization();
 
