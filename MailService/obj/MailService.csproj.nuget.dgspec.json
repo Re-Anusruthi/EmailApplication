@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailService\\MailService.csproj": {}
+    "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\MailService\\MailService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailDomain\\MailDomain.csproj": {
+    "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\MailDomain\\MailDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailDomain\\MailDomain.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\MailDomain\\MailDomain.csproj",
         "projectName": "MailDomain",
-        "projectPath": "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailDomain\\MailDomain.csproj",
-        "packagesPath": "C:\\Users\\208377\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailDomain\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\MailDomain\\MailDomain.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\MailDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\208377\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,36 +53,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailService\\MailService.csproj": {
+    "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\MailService\\MailService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailService\\MailService.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\MailService\\MailService.csproj",
         "projectName": "MailService",
-        "projectPath": "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailService\\MailService.csproj",
-        "packagesPath": "C:\\Users\\208377\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailService\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\MailService\\MailService.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\MailService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\208377\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailDomain\\MailDomain.csproj": {
-                "projectPath": "C:\\Users\\208377\\source\\repos\\EmailApplication\\MailDomain\\MailDomain.csproj"
+              "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\MailDomain\\MailDomain.csproj": {
+                "projectPath": "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\MailDomain\\MailDomain.csproj"
               }
             }
           }
@@ -114,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6512,34 +6512,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\208377\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\208377\\source\\repos\\EmailApplication\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\208377\\source\\repos\\EmailApplication\\Test\\Test.csproj",
-      "packagesPath": "C:\\Users\\208377\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\208377\\source\\repos\\EmailApplication\\Test\\obj\\",
+      "projectPath": "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\208377\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\208377\\source\\repos\\EmailApplication\\EmailApplication\\EmailApplication.csproj": {
-              "projectPath": "C:\\Users\\208377\\source\\repos\\EmailApplication\\EmailApplication\\EmailApplication.csproj"
+            "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\EmailApplication\\EmailApplication.csproj": {
+              "projectPath": "C:\\Users\\HP\\Documents\\Anu\\Vanquis\\EmailApplication\\EmailApplication\\EmailApplication.csproj"
             }
           }
         }
@@ -6595,7 +6593,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
